@@ -2,9 +2,9 @@ name: Cloud Currency Scraper
 
 on:
   schedule:
-    # يعمل تلقائياً كل ساعتين تماماً
+    # يعمل تلقائياً كل ساعتين
     - cron: '0 */2 * * *'
-  workflow_dispatch: # يتيح لك زر التشغيل اليدوي (Run workflow) متى شئت
+  workflow_dispatch: # يتيح زر التشغيل اليدوي Run workflow
 
 jobs:
   run-scraper:
