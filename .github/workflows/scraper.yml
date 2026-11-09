@@ -3,7 +3,7 @@ name: Cloud Currency Scraper
 on:
   schedule:
     
-   - cron: '0 6-16/3 * * *' 
+   - cron: '0 6-16/3 * * 0-4,6' 
    
   workflow_dispatch: # يسمح بالتشغيل اليدوي في أي وقت 
   
